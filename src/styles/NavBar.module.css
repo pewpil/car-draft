@@ -1,10 +1,9 @@
 #navbar {
-	height: 15%;
 	display: flex;
 }
 
 #company {
-	font-size: 2rem;
+	font-size: 4rem;
 	font-weight: bold;
 	color: #ffffff;
 	font-family: "League Spartan", sans-serif;
@@ -13,6 +12,8 @@
 
 .icon {
 	color: #ffffff;
+	font-size: 3rem;
+	margin-left: .5rem;
 }
 
 #actions {

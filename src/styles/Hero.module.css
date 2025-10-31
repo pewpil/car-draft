@@ -1,9 +1,11 @@
 #hero {
+	padding-top: 15%;
+	padding-bottom: 2.5%;
 }
 
 #headline {
 	color: #ffffff;
 	font-family: "League Spartan", sans-serif;
-	font-size: 6rem;
-	width: 50%;
+	font-size: 9rem;
+	width: 80%;
 }
