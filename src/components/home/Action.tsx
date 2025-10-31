@@ -17,7 +17,7 @@ export default function Action(): ReactElement {
 			</div>
 			<div className={style.action}>
 				<span className={`${"material-symbols-outlined"} ${style.action_icon}`}>
-					location_on
+					event_upcoming
 				</span>
 				<div className={style.action_text}>
 					<h3 className={style.action_title}>Pick-up date</h3>
@@ -26,7 +26,7 @@ export default function Action(): ReactElement {
 			</div>
 			<div className={style.action}>
 				<span className={`${"material-symbols-outlined"} ${style.action_icon}`}>
-					location_on
+					delivery_truck_speed
 				</span>
 				<div className={style.action_text}>
 					<h3 className={style.action_title}>Time</h3>
@@ -35,7 +35,7 @@ export default function Action(): ReactElement {
 			</div>
 			<div className={style.action}>
 				<span className={`${"material-symbols-outlined"} ${style.action_icon}`}>
-					location_on
+					calendar_check
 				</span>
 				<div className={style.action_text}>
 					<h3 className={style.action_title}>Drop-off Date</h3>
@@ -44,7 +44,7 @@ export default function Action(): ReactElement {
 			</div>
 			<div className={style.action}>
 				<span className={`${"material-symbols-outlined"} ${style.action_icon}`}>
-					location_on
+					hand_package
 				</span>
 				<div className={style.action_text}>
 					<h3 className={style.action_title}>Time</h3>

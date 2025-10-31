@@ -3,7 +3,7 @@
 	display: flex;
 	padding: 1rem;
 	border-radius: 10rem;
-	width: 65%;
+	width: 70%;
 }
 
 .action {
@@ -32,6 +32,13 @@
 	justify-content: center;
 	align-items:  center;
 	font-size: 3rem;
+	margin-right: 1rem;
+}
+
+.action_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #search {
@@ -41,4 +48,5 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	flex: 1 1;
 }
