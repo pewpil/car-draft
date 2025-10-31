@@ -11,8 +11,8 @@ export default function Action(): ReactElement {
 					location_on
 				</span>
 				<div className={style.action_text}>
-					<h3 className={style.action_title}>Action</h3>
-					<h4 className={style.action_desc}>dAction</h4>
+					<h3 className={style.action_title}>Pick-up location</h3>
+					<h4 className={style.action_desc}>City, airport or ...</h4>
 				</div>
 			</div>
 			<div className={style.action}>
@@ -20,8 +20,8 @@ export default function Action(): ReactElement {
 					location_on
 				</span>
 				<div className={style.action_text}>
-					<h3 className={style.action_title}>Action</h3>
-					<h4 className={style.action_desc}>dAction</h4>
+					<h3 className={style.action_title}>Pick-up date</h3>
+					<h4 className={style.action_desc}>12/10/2025</h4>
 				</div>
 			</div>
 			<div className={style.action}>
@@ -29,8 +29,8 @@ export default function Action(): ReactElement {
 					location_on
 				</span>
 				<div className={style.action_text}>
-					<h3 className={style.action_title}>Action</h3>
-					<h4 className={style.action_desc}>dAction</h4>
+					<h3 className={style.action_title}>Time</h3>
+					<h4 className={style.action_desc}>10:00</h4>
 				</div>
 			</div>
 			<div className={style.action}>
@@ -38,8 +38,8 @@ export default function Action(): ReactElement {
 					location_on
 				</span>
 				<div className={style.action_text}>
-					<h3 className={style.action_title}>Action</h3>
-					<h4 className={style.action_desc}>dAction</h4>
+					<h3 className={style.action_title}>Drop-off Date</h3>
+					<h4 className={style.action_desc}>12/10/2025</h4>
 				</div>
 			</div>
 			<div className={style.action}>
@@ -47,8 +47,8 @@ export default function Action(): ReactElement {
 					location_on
 				</span>
 				<div className={style.action_text}>
-					<h3 className={style.action_title}>Action</h3>
-					<h4 className={style.action_desc}>dAction</h4>
+					<h3 className={style.action_title}>Time</h3>
+					<h4 className={style.action_desc}>10:00</h4>
 				</div>
 			</div>
 			<span className={`${"material-symbols-outlined"}`} id={style.search}>
