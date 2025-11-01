@@ -1,16 +1,60 @@
 #browse_car {
 	display: flex;
+	height: 40%;
 }
 
 #car_preview {
 	flex: 6 6;
 }
 
-#preview_bg {
-	background-color: #040222;
+#model_container {
+	flex: 1 1;
+	overflow: visible;
 }
 
+#model {
+	aspect-ratio: 914 / 824;
+	position: relative;
+	top: 1.5rem;
+}
 
-#headlines {
+#preview_container {
+	background-color: #040222;
+	display: flex;
+	border-radius: 5rem;
+	margin: 7%;
+	height: 100%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#next_car {
+	cursor: pointer;
+	flex: 1 1;
+}
+
+#texts {
 	flex: 4 4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#headline {
+	font-family: "League Spartan", sans-serif;
+	font-size: 8rem;
+}
+
+.body {
+	font-family: "League Spartan", sans-serif;
+	font-size: 2rem;
+}
+
+#boxeds {
+	display: flex;
+}
+
+.boxed {
+	background-color: #040222;
 }

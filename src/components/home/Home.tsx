@@ -7,7 +7,7 @@ import BrowseCar from "./BrowseCar";
 export default function Home(): ReactElement {
 	return (
 		<div id={style.home}>
-			{/* <HeroCTAs></HeroCTAs> */}
+			<HeroCTAs></HeroCTAs>
 			<BrowseCar></BrowseCar>
 		</div>
 	);

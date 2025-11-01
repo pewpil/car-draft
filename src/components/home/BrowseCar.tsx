@@ -7,9 +7,11 @@ export default function BrowseCar(): ReactElement {
 	return (
 		<div id={style.browse_car}>
 			<div id={style.car_preview}>
-				<div id={style.preview_bg}>
-					<img src="car.png" />
-					<div>
+				<div id={style.preview_container}>
+					<div id={style.model_container}>
+						<img src="car.png" id={style.model} />
+					</div>
+					<div id={style.next_car}>
 						<svg
 							width="44"
 							height="49"
@@ -64,17 +66,19 @@ export default function BrowseCar(): ReactElement {
 					</div>
 				</div>
 			</div>
-			<div id={style.headlines}>
+			<div id={style.texts}>
 				<h1 id={style.headline}>BROWSE OUR CARS.</h1>
-				<p id={style.body1}>
+				<p className={style.body}>
 					Explore our diverse fleet of vehicles, each designed to meet your
 					every need.
 				</p>
-				<div className={style.model}>
-					<p id={style.body1}>WIGO 2020 AT</p>
-				</div>
-				<div className={style.model}>
-					<p id={style.body1}>VIEW DETAILS</p>
+				<div id={style.boxeds}>
+					<div className={style.boxed}>
+						<p className={style.body}>WIGO 2020 AT</p>
+					</div>
+					<div className={style.boxed}>
+						<p className={style.body}>VIEW DETAILS</p>
+					</div>
 				</div>
 			</div>
 		</div>
