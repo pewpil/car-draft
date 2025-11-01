@@ -1,6 +1,6 @@
 "use strict";
 import type { ReactElement } from "react";
-import style from "../../styles/NavBar.module.css";
+import style from "../../styles/home/NavBar.module.css";
 
 export default function NavBar(): ReactElement {
 	return (

@@ -1,6 +1,6 @@
 "use strict";
 import type { ReactElement } from "react";
-import style from "../../styles/HeroCTAs.module.css";
+import style from "../../styles/home/HeroCTAs.module.css";
 
 import NavBar from "./NavBar";
 import Hero from "./Hero";

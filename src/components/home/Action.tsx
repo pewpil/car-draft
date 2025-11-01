@@ -1,7 +1,7 @@
 "use strict";
 
 import type { ReactElement } from "react";
-import style from "../../styles/Action.module.css";
+import style from "../../styles/home/Action.module.css";
 
 export default function Action(): ReactElement {
 	return (

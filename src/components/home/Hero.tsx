@@ -1,7 +1,7 @@
 "use strict";
 
 import type { ReactElement } from "react";
-import style from "../../styles/Hero.module.css";
+import style from "../../styles/home/Hero.module.css";
 
 export default function Hero(): ReactElement {
 	return (
