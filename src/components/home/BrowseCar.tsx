@@ -67,17 +67,19 @@ export default function BrowseCar(): ReactElement {
 				</div>
 			</div>
 			<div id={style.texts}>
-				<h1 id={style.headline}>BROWSE OUR CARS.</h1>
+				<h1 id={style.headline}>
+					BROWSE OUR <span className={style.lettering}>CARS.</span>
+				</h1>
 				<p className={style.body}>
 					Explore our diverse fleet of vehicles, each designed to meet your
 					every need.
 				</p>
 				<div id={style.boxeds}>
 					<div className={style.boxed}>
-						<p className={style.body}>WIGO 2020 AT</p>
+						<p className={style.body2}>WIGO 2020 AT</p>
 					</div>
 					<div className={style.boxed}>
-						<p className={style.body}>VIEW DETAILS</p>
+						<p className={style.body2}>VIEW DETAILS</p>
 					</div>
 				</div>
 			</div>

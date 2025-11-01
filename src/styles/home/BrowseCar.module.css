@@ -1,6 +1,7 @@
 #browse_car {
 	display: flex;
 	height: 40%;
+	padding: 5rem 4rem 3rem 4rem;
 }
 
 #car_preview {
@@ -22,11 +23,11 @@
 	background-color: #040222;
 	display: flex;
 	border-radius: 5rem;
-	margin: 7%;
 	height: 100%;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	aspect-ratio: 961 / 377;
 }
 
 #next_car {
@@ -38,23 +39,47 @@
 	flex: 4 4;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 }
 
 #headline {
 	font-family: "League Spartan", sans-serif;
 	font-size: 8rem;
+	color: #ffffff;
+	text-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+	margin-bottom: 1rem;
+}
+
+.body,
+.body2 {
+	font-family: "League Spartan", sans-serif;
 }
 
 .body {
-	font-family: "League Spartan", sans-serif;
 	font-size: 2rem;
+	width: 80%;
+}
+
+.body2 {
+	font-size: 1.5rem;
+	color: #ffffff;
 }
 
 #boxeds {
 	display: flex;
+	margin-top: 1rem;
 }
 
 .boxed {
 	background-color: #040222;
+	padding: 1rem 2rem 1rem 2rem;
+	margin-right: 1rem;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.lettering {
+	background: -webkit-linear-gradient(45deg, #1429b3, #28e0bb);
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
 }

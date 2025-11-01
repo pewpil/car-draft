@@ -6,7 +6,9 @@ import style from "../../styles/home/Hero.module.css";
 export default function Hero(): ReactElement {
 	return (
 		<div id={style.hero}>
-			<h1 id={style.headline}>AFFORDABLE CAR RENTAL IN <span className={style.calg}>CEBU.</span></h1>
+			<h1 id={style.headline}>
+				AFFORDABLE CAR RENTAL IN <span className={style.calg}>CEBU.</span>
+			</h1>
 		</div>
 	);
 }
