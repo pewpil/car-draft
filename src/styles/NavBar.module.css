@@ -8,14 +8,23 @@
 	color: #ffffff;
 	font-family: "League Spartan", sans-serif;
 	flex: 1 1;
+	cursor: pointer;
 }
 
 .icon {
 	color: #ffffff;
 	font-size: 3rem;
 	margin-left: .5rem;
+	cursor: pointer;
 }
 
 #actions {
 	align-self: flex-end;
+}
+
+.calg {
+	background: -webkit-linear-gradient(45deg, #5699ff, #1d4f99);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

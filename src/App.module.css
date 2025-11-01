@@ -4,5 +4,5 @@
 	display: grid;
 	grid-template-columns: repeat(1600, 1fr);
 	grid-template-rows: repeat(900, 1fr);
-	background-color: #1f1f1f;
+	background-color: #d9d9d9;
 }

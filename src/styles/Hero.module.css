@@ -9,3 +9,10 @@
 	font-size: 9rem;
 	width: 80%;
 }
+
+.calg {
+	background: -webkit-linear-gradient(45deg, #1429b3, #28e0bb);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
