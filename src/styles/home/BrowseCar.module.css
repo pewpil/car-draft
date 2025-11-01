@@ -1,0 +1,16 @@
+#browse_car {
+	display: flex;
+}
+
+#car_preview {
+	flex: 6 6;
+}
+
+#preview_bg {
+	background-color: #040222;
+}
+
+
+#headlines {
+	flex: 4 4;
+}
