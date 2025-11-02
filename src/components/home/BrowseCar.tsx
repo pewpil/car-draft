@@ -9,10 +9,10 @@ export default function BrowseCar(): ReactElement {
 			<div id={style.car_preview}>
 				<div id={style.preview_container}>
 					<div id={style.model_container}>
-						<img src="car.png" id={style.model} />
+						<img src="home/car.png" id={style.model} />
 					</div>
 					<div id={style.next_car}>
-					<img src="next_car.svg" />
+					<img src="home/next_car.svg" />
 					</div>
 				</div>
 			</div>
