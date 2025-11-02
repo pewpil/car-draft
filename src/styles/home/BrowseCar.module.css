@@ -45,7 +45,6 @@
 	font-family: "League Spartan", sans-serif;
 	font-size: 8rem;
 	color: #ffffff;
-	text-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 	margin-bottom: 1rem;
 }
 
@@ -79,7 +78,7 @@
 
 .lettering {
 	background: -webkit-linear-gradient(45deg, #1429b3, #28e0bb);
-	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
