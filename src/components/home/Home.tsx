@@ -5,6 +5,7 @@ import HeroCTAs from "./HeroCTAs";
 import BrowseCar from "./BrowseCar";
 import Features from "./Features";
 import Functionalities from "./Functionalities";
+import CustomerService from "./CustomerService";
 
 export default function Home(): ReactElement {
 	return (
@@ -13,6 +14,7 @@ export default function Home(): ReactElement {
 			<BrowseCar></BrowseCar>
 			<Features></Features>
 			<Functionalities></Functionalities>
+			<CustomerService></CustomerService>
 		</div>
 	);
 }

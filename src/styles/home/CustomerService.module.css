@@ -1,0 +1,32 @@
+#customer_service {
+	display: flex;
+}
+
+#reviews_container {
+	flex: 1 1;
+}
+
+#title {
+	font-family: "League Spartan", sans-serif;
+}
+
+#review_tabs {
+	display: flex;
+}
+
+.review_tab {
+	flex: 1 1;
+	text-align: center;
+	font-family: "League Spartan", sans-serif;
+	border-bottom: 1px black solid;
+}
+
+.review {
+	background-color: #bebebe;
+	padding: 2rem;
+	margin: 2rem 0 2rem 0;
+}
+
+#mascot_container {
+	flex: 1 1;
+}
