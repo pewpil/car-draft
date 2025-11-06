@@ -1,0 +1,15 @@
+#title {
+	text-align: center;
+}
+
+#body {
+	text-align: center;
+}
+
+#functionalities_container {
+	display: flex;
+}
+
+.functionality {
+	flex: 1 1;
+}

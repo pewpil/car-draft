@@ -4,6 +4,7 @@ import style from "../../styles/home/Home.module.css";
 import HeroCTAs from "./HeroCTAs";
 import BrowseCar from "./BrowseCar";
 import Features from "./Features";
+import Functionalities from "./Functionalities";
 
 export default function Home(): ReactElement {
 	return (
@@ -11,6 +12,7 @@ export default function Home(): ReactElement {
 			<HeroCTAs></HeroCTAs>
 			<BrowseCar></BrowseCar>
 			<Features></Features>
+			<Functionalities></Functionalities>
 		</div>
 	);
 }
