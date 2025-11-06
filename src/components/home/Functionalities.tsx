@@ -6,11 +6,16 @@ import style from "../../styles/home/Functionality.module.css";
 export default function Functionalities(): ReactElement {
 	return (
 		<div id={style.functionalities}>
-			<h1 id={style.title}>How does it work?</h1>
-			<p id={style.body}>
-				Your journey, simplified in a few easy steps. Select your ride, set your
-				schedule, and enjoy a smooth travel experience from start to finish
-			</p>
+			<h1 id={style.title}>
+				<span id={style.title_HOW}>HOW </span>DOES IT WORK?
+			</h1>
+			<div id={style.headline}>
+				<p id={style.body}>
+					Your journey, simplified in a few easy steps. Select your ride, set
+					your schedule, and enjoy a smooth travel experience from start to
+					finish
+				</p>
+			</div>
 			<div id={style.functionalities_container}>
 				<div className={style.functionality}>
 					<span
