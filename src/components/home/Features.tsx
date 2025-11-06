@@ -1,8 +1,9 @@
 "use strict";
 
+import type { ReactElement } from "react";
 import style from "../../styles/home/Features.module.css";
 
-export default function Features() {
+export default function Features(): ReactElement {
 	return (
 		<div id={style.features}>
 			<div className={style.feature_container} id={style.fuel}>
