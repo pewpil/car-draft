@@ -1,13 +1,22 @@
 #customer_service {
 	display: flex;
+	background-color: #d9d9d9;
 }
 
 #reviews_container {
-	flex: 1 1;
+	padding: 4rem;
 }
 
 #title {
 	font-family: "League Spartan", sans-serif;
+	text-align: center;
+	font-size: 4rem;
+	color: #ffffff;
+	padding: 0 0 4rem 0;
+}
+
+#title_Service {
+	color: #040222;
 }
 
 #review_tabs {
@@ -19,6 +28,8 @@
 	text-align: center;
 	font-family: "League Spartan", sans-serif;
 	border-bottom: 1px black solid;
+	padding: 2rem;
+	font-size: 1.5rem;
 }
 
 .review {

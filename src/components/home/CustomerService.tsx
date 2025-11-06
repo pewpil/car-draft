@@ -7,7 +7,9 @@ export default function CustomerService(): ReactElement {
 	return (
 		<div id={style.customer_service}>
 			<div id={style.reviews_container}>
-				<h1 id={style.title}>Customer Service</h1>
+				<h1 id={style.title}>
+					Customer <span id={style.title_Service}>Service</span>
+				</h1>
 				<div id={style.review_tabs}>
 					<h2 className={style.review_tab}>General Overview</h2>
 					<h2 className={style.review_tab}>Others</h2>
