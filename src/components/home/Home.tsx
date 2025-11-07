@@ -6,6 +6,7 @@ import BrowseCar from "./BrowseCar";
 import Features from "./Features";
 import Functionalities from "./Functionalities";
 import CustomerService from "./CustomerService";
+import Footer from "./Footer";
 
 export default function Home(): ReactElement {
 	return (
@@ -15,6 +16,7 @@ export default function Home(): ReactElement {
 			<Features></Features>
 			<Functionalities></Functionalities>
 			<CustomerService></CustomerService>
+			<Footer></Footer>
 		</div>
 	);
 }
