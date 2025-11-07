@@ -21,15 +21,15 @@ export default function Functionalities(): ReactElement {
 					<span
 						className={`${"material-symbols-outlined"} ${style.functionality_icon}`}
 					>
-						icon_name
+						person_add
 					</span>
-					<h2 className={style.functionality_title}>Create an Account</h2>
+					<h2 className={style.functionality_title}>Create An Account</h2>
 				</div>
 				<div className={style.functionality}>
 					<span
 						className={`${"material-symbols-outlined"} ${style.functionality_icon}`}
 					>
-						icon_name
+						bookmark
 					</span>
 					<h2 className={style.functionality_title}>Book Time and Date</h2>
 				</div>
@@ -37,7 +37,7 @@ export default function Functionalities(): ReactElement {
 					<span
 						className={`${"material-symbols-outlined"} ${style.functionality_icon}`}
 					>
-						icon_name
+						car_tag
 					</span>
 					<h2 className={style.functionality_title}>Select A Car Model</h2>
 				</div>
@@ -45,7 +45,7 @@ export default function Functionalities(): ReactElement {
 					<span
 						className={`${"material-symbols-outlined"} ${style.functionality_icon}`}
 					>
-						icon_name
+						car_rental
 					</span>
 					<h2 className={style.functionality_title}>Rent with D&I</h2>
 				</div>

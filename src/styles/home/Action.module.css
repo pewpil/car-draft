@@ -30,9 +30,10 @@
 .action_icon {
 	display: flex;
 	justify-content: center;
-	align-items:  center;
+	align-items: center;
 	font-size: 3rem;
 	margin-right: 1rem;
+	font-variation-settings: "wght" 800;
 }
 
 .action_text {

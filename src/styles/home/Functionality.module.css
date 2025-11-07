@@ -6,7 +6,7 @@
 	color: #ffffff;
 	text-align: center;
 	font-family: "League Spartan", sans-serif;
-	font-size: 6rem;
+	font-size: 7rem;
 	text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 	padding: 1rem;
 }
@@ -38,6 +38,7 @@
 	margin: 2rem;
 	border-radius: 3rem;
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+	padding: 2rem 2rem 4rem 2rem;
 }
 
 .functionality_title {
@@ -45,11 +46,19 @@
 	color: #ffffff;
 	font-size: 3rem;
 	text-align: center;
+	font-weight: 600;
 }
 
 .functionality_icon {
 	color: #ffffff;
-	/* font-size: 10rem; */
+	font-size: 10rem;
+	font-weight: 100;
 	display: flex;
 	justify-content: center;
+	padding: 1rem;
+	font-variation-settings:
+		'wght' 100,
+		'opsz' 24,
+		'FILL' 0,
+		'GRAD' 0;
 }
